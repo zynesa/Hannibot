@@ -1,125 +1,153 @@
-# 🤖 HanniBot
+# 하니봇(Hannibot)
 
-<div align="center">
+> **국내 걸그룹 NJZ(엔제이지)와 함께, 서버 관리와 유틸리티까지 한 번에!**
 
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Version">
-    <img src="https://img.shields.io/badge/License-GPL_2.0-blue?style=flat-square" alt="License">
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/github/stars/luxcoa/hannibot?style=social" alt="Stars">
-    <img src="https://img.shields.io/github/forks/luxcoa/hannibot" alt="Forks">
-    <img src="https://img.shields.io/github/issues/luxcoa/hannibot" alt="Open Issues">
-    <img src="https://img.shields.io/github/contributors/luxcoa/hannibot" alt="Contributors">
-    <img src="https://img.shields.io/github/last-commit/luxcoa/hannibot" alt="Last Commit">
-  </p>
-
-  <p>뉴진스의 관련된 정보 제공 및 다양한 서버 관리 기능을 제공하는 다목적 Discord 봇</p>
-</div>
-
-## ✨ 주요 기능
-
-- 🎵 **정보 기능**
-  - 최신 뉴스 및 업데이트
-  - 멤버 프로필 및 정보
-  - 음악 및 앨범 정보
-
-- 🎲 **도박 시스템**
-  - 슬롯머신
-  - 주사위 게임
-  - 기타 도박 시스템
-
-- 🛠 **서버 관리**
-  - 멤버 관리
-  - 채널 설정
-  - 자동화 기능
-
-## 🚀 | 시작하기
-
-### 전제 조건
-
-```plaintext
-- Python 3.8 이상
-- pip (Python 패키지 관리자)
-- Discord 봇 토큰
-```
-
-### 설치 방법
-
-1. **레포지토리 클론**
-```bash
-git clone https://github.com/luxcoa/hannibot.git
-cd hannibot
-```
-
-2. **가상 환경 생성 및 활성화** (권장)
-```bash
-# Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-# Linux/macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. **필요한 패키지 설치**
-```bash
-pip install -r requirements.txt
-```
-
-4. **봇 실행**
-```bash
-python (파일이름).py
-```
-
-### 빠른 설치 (Windows)
-
-1. `Code` 버튼을 클릭하고 `Download ZIP`으로 다운로드
-2. 다운로드 폴더로 이동:
-```bash
-cd %USERPROFILE%\Downloads\hannibot-main
-```
-3. 필요한 패키지 설치:
-```bash
-pip install -r requirements.txt
-```
-4. `config.json` 파일에서 봇 토큰 설정
-5. 봇 실행:
-```bash
-python bot.py
-```
-자세한 명령어 목록과 사용법은 [공식 사이트](https://hannibot.netlify.app/features)를 참조해주세요.
 ---
 
-## 📄 라이선스
+## 🏷️ **주요 기능 한눈에 보기!**
 
-이 레포지토리는 [GNU General Public License v2.0](LICENSE) 라이선스에 따라 배포됩니다.
+- **NJZ(엔제이지) 정보** : 멤버 정보, 랜덤 사진, 오늘의 팜국어 등
+- **서버 관리** : 경고, 킥, 벤, 타임아웃, 청소, 공지, 채널잠금 등
+- **유틸리티** : 날씨, 타이머, 한타 변환, 주사위, 투표 등
+- **게임/강화** : 아이템 강화, 랭킹, 아이템 정보 등
 
-### 주요 라이선스 조항
-- ✅ 소스 코드 자유로운 사용, 수정, 배포 가능
-- ✅ 수정된 버전 배포 시 동일 라이선스 적용
-- ⚠️ 모든 복제본에 원저작자 정보 포함 필수
-- ⚠️ 봇 리스트 사이트 등록 시 출처 명시 필수
-- ⚠️ 소스코드 오용으로 인한 문제는 저자가 책임지지 않음
+---
 
-## ❓ 지원 및 문의
+## 🛠️ **명령어 안내**
 
-- **지원**: [Issues](https://github.com/luxcoa/hannibot/issues) 페이지 이용
-- **이메일 문의**: hannifam@proton.me
-- **디스코드**: [서포트 서버 참여](https://discord.gg/8xZtuQ5rsr)
+### 👧 **NJZ(엔제이지) 관련**
 
-> ⚠️ 문의하기 전에 [자주 묻는 질문](https://github.com/luxcoa/Hannibot/blob/main/md/faq.md)을 먼저 확인해주세요.
+- **`/엔제이지`**  
+  NJZ(엔제이지) 그룹의 기본 정보를 확인하고, 멤버별 버튼으로 상세 정보도 볼 수 있어요!
+- **`/njz 사진`**  
+  NJZ 멤버들의 랜덤 이미지를 보내드려요.
+- **`/오늘의팜국어`**  
+  오늘의 랜덤 팜국어(밈/신조어)를 알려드려요.
 
-## 🌟 기여자
+---
 
-<div align="center">
-  <a href="https://github.com/luxcoa/hannibot/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=luxcoa/hannibot" />
-  </a>
-</div>
+### ℹ️ **정보/유틸리티**
 
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/zynesa">zynesa</a></p>
-</div>
+- **`/서버정보`**  
+  현재 서버의 다양한 정보(멤버, 채널, 부스트 등)를 한눈에 확인할 수 있어요.
+- **`/날씨 [지역]`**  
+  궁금한 지역의 실시간 날씨와 대기질, 그리고 유용한 팁까지 챙겨드려요!
+- **`/타이머 [시간] [이름]`**  
+  원하는 시간만큼 타이머를 설정하고, 시간이 끝나면 멘션으로 꼭 알려드려요.
+- **`/타이머취소`**  
+  현재 설정한 타이머를 모두 한 번에 취소할 수 있어요.
+- **`/한타로 [텍스트]`**  
+  영타→한글, 한글→영타 변환을 똑똑하게 도와드려요! (예: `dksl` → `안녕`)
+- **`/주사위 [면수] [개수]`**  
+  원하는 면수와 개수로 주사위를 굴려드려요. 오늘의 운세는?
+- **`/골라 [옵션1 옵션2 ...]`**  
+  여러 가지 옵션 중에서 하나를 무작위로 골라드려요!
+- **`/투표 [제목] [항목1] [항목2] ...`**  
+  쉽고 빠르게 투표를 만들어, 모두의 의견을 모아보세요! (최대 6개 항목, 익명 가능)
+
+---
+
+### 🎮 **게임/강화**
+
+- **`/강화 [아이템명]`**  
+  아이템을 강화해보세요! 성공하면 레벨 UP, 실패하면 레벨 DOWN!
+- **`/아이템정보`**  
+  내가 보유한 아이템 목록과 상세 정보를 한눈에 보여드려요.
+- **`/강화랭킹`**  
+  서버 내에서 누가 강화왕인지 랭킹을 확인해보세요!
+
+---
+
+### 🛡️ **서버 관리**
+
+- **`/경고 [유저] [사유]`**  
+  특정 유저에게 경고를 부여할 수 있어요. 경고가 누적되면 자동으로 추방돼요!
+- **`/경고셋팅 [한도] [로그채널]`**  
+  경고 한도와 로그 채널을 손쉽게 설정할 수 있어요.
+- **`/경고삭제 [유저] [개수]`**  
+  유저의 최근 경고를 원하는 만큼 삭제할 수 있어요.
+- **`/경고초기화 [유저]`**  
+  유저의 모든 경고를 한 번에 초기화할 수 있어요.
+- **`/경고목록 [유저]`**  
+  유저의 경고 내역을 꼼꼼하게 확인할 수 있어요.
+- **`/킥 [유저] [사유]`**  
+  유저를 서버에서 깔끔하게 추방할 수 있어요.
+- **`/벤 [유저] [사유]`**  
+  유저를 서버에서 차단할 수 있어요. (되돌리기 전까지 재입장 불가!)
+- **`/타임아웃 [유저] [시간] [단위] [사유]`**  
+  유저를 일정 시간 동안 채팅 제한할 수 있어요.
+- **`/청소 [수] [유저] [사유]`**  
+  채팅방의 메시지를 한 번에 쏙쏙! 유저 지정도 가능해요.
+- **`/공지사항 [내용] [색상] [멘션] [제목] [이미지] [채널]`**  
+  에브리원/히어 멘션과 함께 예쁜 임베드 공지를 전송해드려요.
+- **`/채널잠금 [채널]`**  
+  채널을 잠궈서 일반 유저의 채팅을 잠시 막을 수 있어요.
+
+---
+
+### 🏠 **기타/지원**
+
+- **`/서포트서버`**  
+  하니봇 공식 서포트 서버 초대 링크를 바로 보내드려요!
+
+---
+
+## 💡 **사용 예시**
+
+```bash
+/엔제이지                # NJZ 멤버 정보 버튼 제공
+/날씨 서울               # 서울의 실시간 날씨 정보
+/타이머 10m 공부         # 10분 후 "공부" 타이머 알림
+/경고 @유저 욕설         # 해당 유저에게 경고 부여
+/공지사항 내용:회의 시작 색상:파란색 멘션:히어   # 전체 공지
+```
+
+---
+
+## 💡 **설치 및 실행 방법 (자세히)**
+
+1. **Python 3.8 이상 설치**
+   - [Python 공식 사이트](https://www.python.org/downloads/)에서 설치
+   - 설치 시 'Add Python to PATH' 체크!
+2. **코드 다운로드**
+   - Git 사용: 
+     ```bash
+     git clone [이 저장소 주소]
+     cd [폴더명]
+     ```
+   - 또는 ZIP 다운로드 후 압축 해제
+3. **필수 패키지 설치**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **환경 변수(.env) 설정**
+   - 프로젝트 폴더에 `.env` 파일 생성, 아래 예시대로 작성
+   ```env
+   TOKEN=디스코드_봇_토큰
+   DEVELOPER_ID=본인_디스코드_ID
+   WEATHER_API_KEY=오픈웨더_API키
+   ```
+   - **TOKEN**: [디스코드 개발자 포털](https://discord.com/developers/applications)에서 새 봇 생성 후 토큰 복사
+   - **DEVELOPER_ID**: 내 디스코드 계정 ID (디스코드에서 개발자 모드 켜고, 내 프로필 우클릭 → ID 복사)
+   - **WEATHER_API_KEY**: [OpenWeatherMap](https://openweathermap.org/api) 회원가입 후 API 키 발급
+5. **봇 실행**
+   ```bash
+   python main.py
+   ```
+6. **서버에 봇 초대**
+   - 개발자 포털에서 'OAuth2 > URL Generator'에서 'bot' 및 'applications.commands' 권한 체크 후 링크 생성
+   - 원하는 서버에 초대
+
+---
+
+## ⚠️ **참고/유의사항**
+
+- 대부분의 관리 명령어는 **관리자 권한**이 필요해요.
+- 일부 명령어(강화 등)는 **쿨다운**이 적용돼요.
+- 오류/버그가 발생하면 **`/버그제보`** 명령어로 코드와 함께 제보해주시면 빠르게 도와드릴게요!
+
+---
+
+> _팬심으로 만든 봇입니다._
+
+**Copyright© 2025 Team Architecture All rights reserved.**  
